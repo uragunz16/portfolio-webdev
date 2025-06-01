@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="/js/index.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">MOPoli Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Mark Owen Policarpio</h1>
+            <p class="hero-subtitle">Web Developer & UI/UX Designer</p>
+            <p class="hero-text mg-sm">
+                Creating beautiful, modern web pages that blend stunning design.
+            </p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-box">
+                <img class="profile-img" src="./img/owen.jpg" alt="owen">
+            </div>
+            <div class="about-text">
+                <p>
+                    I'm a web developer and designer passionate about creating responsive, user-friendly digital experiences. I blend technical skills with creative design to turn complex ideas into simple, elegant solutions.
+                </p>
+                <br>
+                <p>
+                    Currently, I'm refining my expertise in HTML, CSS3 Flexbox, Grid systems, and animations while exploring new design trends and sharing knowledge with the community.
+                </p>
+                <br>
+                <!-- <p>
+                    When I'm not coding, you can find me exploring new design trends, contributing to open-source 
+                    projects, or sharing knowledge with the developer community.
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section fade-in">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                <div class="skill-item">
+                    <span>HTML/CSS3</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="30%"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill-item">
+                    <span>React</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Vue.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend Development</h3>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="0%"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill-item">
+                    <span>Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>MongoDB</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>PostgreSQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-palette"></i> Design & Tools</h3>
+                <div class="skill-item">
+                    <span>UI/UX Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="10%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Figma</span>  
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="5%"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill-item">
+                    <span>Adobe XD</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div> -->
+                <div class="skill-item">
+                    <span>Git/GitHub</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="45%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section fade-in">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- <div class="project-card" onclick="openProject('ecommerce')">
+                <div class="project-image">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">
+                        A full-featured online store with payment integration, inventory management, and admin dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="project-card" onclick="openProject('dashboard')">
+                <div class="project-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Analytics Dashboard</h3>
+                    <p class="project-description">
+                        Real-time data visualization dashboard with interactive charts and customizable widgets.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">WebSocket</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="project-card" onclick="openProject('mobile')">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Mobile Task Manager</h3>
+                    <p class="project-description">
+                        Cross-platform mobile app for team collaboration and project management with offline sync.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Redux</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="project-card" onclick="openProject('dashboard')">
+                <div class="project-image">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">
+                        Responsive portfolio website with modern animations and interactive elements.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="project-card" onclick="openProject('blog')">
+                <div class="project-image">
+                    <i class="fas fa-blog"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tech Blog Platform</h3>
+                    <p class="project-description">
+                        Full-stack blogging platform with markdown support, comments, and SEO optimization.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Prisma</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="project-card" onclick="openProject('game')">
+                <div class="project-image">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Web-based Game</h3>
+                    <p class="project-description">
+                        Interactive browser game with multiplayer support and real-time leaderboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Canvas API</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Redis</span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in">
+        <h2>Let's Work Together</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>policarpiomarkowen@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Mobile Number</h3>
+                        <p>Smart - 09695716554</p>
+                        <p>Globe - 09662094905</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Mabalacat Pampanga, Philippines</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p><a class="dev" href="https://www.linkedin.com/in/mark-owen-policarpio-961670139/">My Linkedin Website</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p><a class="dev" href="#https://github.com/uragunz16">My Github</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form> -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mark Owen Policarpio. All rights reserved. Built with ❤️ and lots of coffee.</p>
+    </footer>    
+</body>
+</html>

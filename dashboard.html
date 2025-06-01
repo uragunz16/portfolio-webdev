@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Attendance Dashboard | By Code Info</title>
+        <link rel="stylesheet" href="dashboard/dashboard.css" />
+        <script src="/dashboard-js/dashboard.js" defer></script>
+        <!-- Font Awesome Cdn Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <!--  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      </head>
+<body>
+          <!-- <div class="container">
+            <nav>
+              <ul>
+                <li><a href="#" class="logo">
+                  <img src="./pic/logo.jpg">
+                  <span class="nav-item">Admin</span>
+                </a></li>
+                <li><a href="#">
+                  <i class="fas fa-menorah"></i>
+                  <span class="nav-item">Dashboard</span>
+                </a></li>
+                <li><a href="#">
+                  <i class="fas fa-comment"></i>
+                  <span class="nav-item">Message</span>
+                </a></li>
+                <li><a href="#">
+                  <i class="fas fa-database"></i>
+                  <span class="nav-item">Report</span>
+                </a></li>
+                <li><a href="#">
+                  <i class="fas fa-chart-bar"></i>
+                  <span class="nav-item">Attendance</span>
+                </a></li>
+                <li><a href="#">
+                  <i class="fas fa-cog"></i>
+                  <span class="nav-item">Setting</span>
+                </a></li>
+        
+                <li><a href="#" class="logout">
+                  <i class="fas fa-sign-out-alt"></i>
+                  <span class="nav-item">Log out</span>
+                </a></li>
+              </ul>
+            </nav> 
+            <section class="main">
+              <div class="main-top">
+                <h1>Attendance</h1>
+                <i class="fas fa-user-cog"></i>
+              </div>
+              <div class="users">
+                <div class="card">
+                  <img src="./pic/img1.jpg">
+                  <h4>Sam David</h4>
+                  <p>Ui designer</p>
+                  <div class="per">
+                    <table>
+                      <tr>
+                        <td><span>85%</span></td>
+                        <td><span>87%</span></td>
+                      </tr>
+                      <tr>
+                        <td>Month</td>
+                        <td>Year</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button>Profile</button>
+                </div>
+                <div class="card">
+                  <img src="./pic/img2.jpg">
+                  <h4>Balbina kherr</h4>
+                  <p>Progammer</p>
+                  <div class="per">
+                    <table>
+                      <tr>
+                        <td><span>82%</span></td>
+                        <td><span>85%</span></td>
+                      </tr>
+                      <tr>
+                        <td>Month</td>
+                        <td>Year</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button>Profile</button>
+                </div>
+                <div class="card">
+                  <img src="./pic/img3.jpg">
+                  <h4>Badan John</h4>
+                  <p>tester</p>
+                  <div class="per">
+                    <table>
+                      <tr>
+                        <td><span>94%</span></td>
+                        <td><span>92%</span></td>
+                      </tr>
+                      <tr>
+                        <td>Month</td>
+                        <td>Year</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button>Profile</button>
+                </div>
+                <div class="card">
+                  <img src="./pic/img4.jpg">
+                  <h4>Salina micheal</h4>
+                  <p>Ui designer</p>
+                  <div class="per">
+                    <table>
+                      <tr>
+                        <td><span>85%</span></td>
+                        <td><span>82%</span></td>
+                      </tr>
+                      <tr>
+                        <td>Month</td>
+                        <td>Year</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <button>Profile</button>
+                </div>
+              </div>        
+              <section class="attendance">
+                <div class="attendance-list">
+                  <h1>Attendance List</h1>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Depart</th>
+                        <th>Date</th>
+                        <th>Join Time</th>
+                        <th>Logout Time</th>
+                        <th>Details</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>01</td>
+                        <td>Sam David</td>
+                        <td>Design</td>
+                        <td>03-24-22</td>
+                        <td>8:00AM</td>
+                        <td>3:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                      <tr class="active">
+                        <td>02</td>
+                        <td>Balbina Kherr</td>
+                        <td>Coding</td>
+                        <td>03-24-22</td>
+                        <td>9:00AM</td>
+                        <td>4:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                      <tr>
+                        <td>03</td>
+                        <td>Badan John</td>
+                        <td>testing</td>
+                        <td>03-24-22</td>
+                        <td>8:00AM</td>
+                        <td>3:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                      <tr>
+                        <td>04</td>
+                        <td>Sara David</td>
+                        <td>Design</td>
+                        <td>03-24-22</td>
+                        <td>8:00AM</td>
+                        <td>3:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                      <tr >
+                        <td>05</td>
+                        <td>Salina</td>
+                        <td>Coding</td>
+                        <td>03-24-22</td>
+                        <td>9:00AM</td>
+                        <td>4:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                      <tr >
+                        <td>06</td>
+                        <td>Tara Smith</td>
+                        <td>Testing</td>
+                        <td>03-24-22</td>
+                        <td>9:00AM</td>
+                        <td>4:00PM</td>
+                        <td><button>View</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </section>
+          </div> -->
+
+           <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiM2NjdlZWEiLz4KPHN2ZyB4PSI4IiB5PSI4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMlM2LjQ4IDIyIDEyIDIyUzIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTIgMlpNMTIgNkM5Ljc5IDYgOCA3Ljc5IDggMTBTOS43OSAxNCAxMiAxNFMxNiAxMi4yMSAxNiAxMFMxNC4yMSA2IDEyIDZaTTEyIDE4QzEwLjMzIDE4IDguNzkgMTcuMTkgNy44MyAxNS45OUM4LjU5IDE1IDEwLjIzIDE0LjM5IDEyIDE0LjM5UzE1LjQxIDE1IDE2LjE3IDE1Ljk5QzE1LjIxIDE3LjE5IDEzLjY3IDE4IDEyIDE4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cjwvc3ZnPgo=" alt="Admin">
+                    <span class="nav-item">Admin</span>
+                </a></li>
+                <li><a href="#" class="active">
+                    <i class="fas fa-chart-pie"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-envelope"></i>
+                    <span class="nav-item">Messages</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-file-alt"></i>
+                    <span class="nav-item">Reports</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="nav-item">Attendance</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-item">Settings</span>
+                </a></li>
+                <li><a href="#" class="logout" onclick="handleLogout()">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="nav-item">Log out</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div class="main-top">
+                <h1>Attendance Dashboard</h1>
+                <!-- <i class="fas fa-user-cog" onclick="toggleSettings()"></i> -->
+            </div>
+
+            <div class="users">
+                <div class="card" onclick="viewProfile('Sam David')">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNmMGY5ZmYiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWk0xMiA2QzkuNzkgNiA4IDcuNzkgOCAxMFM5Ljc5IDE0IDEyIDE0UzE2IDEyLjIxIDE2IDEwUzE0LjIxIDYgMTIgNlpNMTIgMThDMTAuMzMgMTggOC43OSAxNy4xOSA3Lj83IDE1Ljk5QzguNTkgMTUgMTAuMjMgMTQuMzkgMTIgMTQuMzlTMTUuNDEgMTUgMTYuMTcgMTUuOTlDMTUuMjEgMTcuMTkgMTMuNjcgMTggMTIgMThaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo8L3N2Zz4K" alt="Sam David">
+                    <h2>Sam David</h2>
+                    <p>UI Designer</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>87%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button onclick="event.stopPropagation(); viewProfile('Sam David')">Profile</button>
+                </div>
+
+                <div class="card" onclick="viewProfile('Balbina Kherr')">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNmZWY3ZjAiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWk0xMiA2QzkuNzkgNiA4IDcuNzkgOCAxMFM5Ljc5IDE0IDEyIDE0UzE2IDEyLjIxIDE2IDEwUzE0LjIxIDYgMTIgNlpNMTIgMThDMTAuMzMgMTggOC43OSAxNy4xOSA3LjgzIDE1Ljk5QzguNTkgMTUgMTAuMjMgMTQuMzkgMTIgMTQuMzlTMTUuNDEgMTUgMTYuMTcgMTUuOTlDMTUuMjEgMTcuMTkgMTMuNjcgMTggMTIgMThaIiBmaWxsPSIjZmY5NTAwIi8+Cjwvc3ZnPgo8L3N2Zz4K" alt="Balbina Kherr">
+                    <h2>Balbina Kherr</h2>
+                    <p>Programmer</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>82%</span></td>
+                                <td><span>85%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button onclick="event.stopPropagation(); viewProfile('Balbina Kherr')">Profile</button>
+                </div>
+
+                <div class="card" onclick="viewProfile('Badan John')">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNmMGZkZjQiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWk0xMiA2QzkuNzkgNiA4IDcuNzkgOCAxMFM5Ljc5IDE0IDEyIDE0UzE2IDEyLjIxIDE2IDEwUzE0LjIxIDYgMTIgNlpNMTIgMThDMTAuMzMgMTggOC43OSAxNy4xOSA3LjgzIDE1Ljk5QzguNTkgMTUgMTAuMjMgMTQuMzkgMTIgMTQuMzlTMTUuNDEgMTUgMTYuMTcgMTUuOTlDMTUuMjEgMTcuMTkgMTMuNjcgMTggMTIgMThaIiBmaWxsPSIjMTBiOTgxIi8+Cjwvc3ZnPgo8L3N2Zz4K" alt="Badan John">
+                    <h2>Badan John</h2>
+                    <p>Tester</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>94%</span></td>
+                                <td><span>92%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button onclick="event.stopPropagation(); viewProfile('Badan John')">Profile</button>
+                </div>
+
+                <div class="card" onclick="viewProfile('Salina Michael')">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iNDAiIGZpbGw9IiNmZGY0ZmYiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWk0xMiA2QzkuNzkgNiA4IDcuNzkgOCAxMFM5Ljc5IDE0IDEyIDE0UzE2IDEyLjIxIDE2IDEwUzE0LjIxIDYgMTIgNlpNMTIgMThDMTAuMzMgMTggOC43OSAxNy4xOSA3LjgzIDE1Ljk5QzguNTkgMTUgMTAuMjMgMTQuMzkgMTIgMTQuMzlTMTUuNDEgMTUgMTYuMTcgMTUuOTlDMTUuMjEgMTcuMTkgMTMuNjcgMTggMTIgMThaIiBmaWxsPSIjOTMzM2VhIi8+Cjwvc3ZnPgo8L3N2Zz4K" alt="Salina Michael">
+                    <h2>Salina Michael</h2>
+                    <p>UI Designer</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>82%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button onclick="event.stopPropagation(); viewProfile('Salina Michael')">Profile</button>
+                </div>
+            </div>
+
+            <section class="attendance">
+                <div class="attendance-list">
+                    <h1>Attendance List</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Date</th>
+                                <th>Join Time</th>
+                                <th>Logout Time</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>Sam David</td>
+                                <td>Design</td>
+                                <td>03-24-22</td>
+                                <td>8:00 AM</td>
+                                <td>3:00 PM</td>
+                                <td><button onclick="viewDetails(1)">View</button></td>
+                            </tr>
+                            <tr class="active">
+                                <td>02</td>
+                                <td>Balbina Kherr</td>
+                                <td>Development</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button onclick="viewDetails(2)">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td>Badan John</td>
+                                <td>Testing</td>
+                                <td>03-24-22</td>
+                                <td>8:00 AM</td>
+                                <td>3:00 PM</td>
+                                <td><button onclick="viewDetails(3)">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td>Sara David</td>
+                                <td>Design</td>
+                                <td>03-24-22</td>
+                                <td>8:00 AM</td>
+                                <td>3:00 PM</td>
+                                <td><button onclick="viewDetails(4)">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>05</td>
+                                <td>Salina Michael</td>
+                                <td>Development</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button onclick="viewDetails(5)">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>06</td>
+                                <td>Tara Smith</td>
+                                <td>Testing</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button onclick="viewDetails(6)">View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </div>
+    <div id="successMessage" class="success-message">
+        <i class="fas fa-check-circle"></i> Action completed successfully!
+    </div>
+</body>
+</html>
+    
+</body>
+</html>
