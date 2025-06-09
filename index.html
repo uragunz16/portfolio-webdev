@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="/js/index.js" defer></script>
+    
     <title>My Portfolio</title>
 </head>
 <body>
@@ -211,22 +211,25 @@
                 </div>
             </div> -->
 
-            <div class="project-card" onclick="openProject('dashboard')">
-                <div class="project-image">
-                    <i class="fas fa-globe"></i>
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <p class="project-description">
-                        Responsive portfolio website with modern animations and interactive elements.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
+            <a href="/dashboard.html">
+                <div href="/dashboard.html" class="project-card" onclick="openProject('dashboard')">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                            Responsive portfolio website with modern animations and interactive
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+            
 
             <!-- <div class="project-card" onclick="openProject('blog')">
                 <div class="project-image">
@@ -330,6 +333,7 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Mark Owen Policarpio. All rights reserved. Built with ❤️ and lots of coffee.</p>
-    </footer>    
+    </footer>
+<script src="/dashboard-js/dashboard.js"></script>    
 </body>
 </html>
