@@ -16,14 +16,14 @@ function openProject(projectName) {
 }
 */ 
 
-document.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('click', function() {
-        const projectName = this.getAttribute('onclick').match(/'([^']+)'/)[1]; 
-        if (projectName) {
-            window.open(projectName + ".html", "_blank"); // Opens in a new tab
-        }
-    });
-});
+// document.querySelectorAll('.project-card').forEach(card => {
+//     card.addEventListener('click', function() {
+//         const projectName = this.getAttribute('onclick').match(/'([^']+)'/)[1]; 
+//         if (projectName) {
+//             window.open(projectName + ".html", "_blank"); // Opens in a new tab
+//         }
+//     });
+// });
 
 // function openProject(projectName) {
 //   console.log(projectName, "openProject is clicked");
